@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding-top:40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a{
+    color: aliceblue;
+}
+.current a{
+    color: rgb(250, 96, 49);
+}
+#branding{
+    padding-top: 30px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#branding .highlight{
+    color: rgb(250, 96, 49);
+}
+header .container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: rgb(131, 127, 127);
+    height: 100px;
+    border-bottom: 4px solid rgb(250, 96, 49);
+    padding-top: 8px;
+}
+
+#showcase{
+    background-image: url('/img/gigi-logo.png');
+    height: 500px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    text-align: center;
+}
+#showcase .container{
+    color: aliceblue;
+    padding-top: 180px;
+}
+#showcase .container h1{
+    font-size: 40px;
+    
+}
+
+#newsletter .container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: rgb(131, 127, 127);
+    height: 80px;
+    padding-top: 25px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form input{
+    height: 30px;
+    width: 200px;
+}
+form button{
+    height: 30px;
+    width: 100px;
+    background: rgb(250, 96, 49);
+    border: 0px;
+    color: aliceblue;
+}
+
+#boxes .container{
+    display: flex;
+}
+#boxes .container .box{
+    text-align: center;
+    width: 33.3%;
+}
+#boxes .container .box img{
+    width: 100px;
+    padding-top: 20px;
+}
+#boxes .container .box p{
+    padding-bottom: 20px;
+}
+
+footer{
+    background: rgb(250, 96, 49);
+    height: 100px;
+    text-align: center;
+    color: aliceblue;
+}
+footer p{
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
